@@ -2,10 +2,10 @@ package hotel;
 
 public class Chambre {
     private int numero;
-    private String type;
+    private Type type;
     private boolean reserve;
 
-    public Chambre(int numero, String type) {
+    public Chambre(int numero, Type type) {
         this.numero = numero;
         this.type = type;
     }
